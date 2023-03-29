@@ -11,6 +11,7 @@ pub mod structs;
 pub mod vectors;
 pub mod traits;
 pub mod traits_2;
+mod lifetimes;
 
 
 fn main() {
