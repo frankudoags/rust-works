@@ -3,15 +3,12 @@
 pub(crate) fn main() {
     let array: [i32; 5] = [1, 2, 3, 4, 5];
     let len = array.len();
-    
+
     let slice: &[i32] = &array[0..3]; //valid
     let a = &array[..]; //valid
     let b = &array[0..len]; //valid
 
     println!("slice: {:?}", slice);
-
-
-
 
     let v = true;
     let tenary = if v { true } else { false };
@@ -29,6 +26,4 @@ pub(crate) fn main() {
     for elem in array {
         println!("the value is: {elem}");
     }
-
-    
 }

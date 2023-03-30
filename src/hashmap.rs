@@ -21,11 +21,10 @@ pub(crate) fn main() {
     // Adding a Key and Value Only If a Key Isn’t Present
     map.entry(3).or_insert(7);
     println!("Hashmap is: {:?}", map); // Hashmap is: {3: 7, 2: 4}
-    
+
     //value of key 3 is 7, so the value of key 3 is not updated
     map.entry(3).or_insert(8);
     println!("Hashmap is: {:?}", map); // Hashmap is: {3: 7, 2: 4}
-
 
     let text = "hello world wonderful world";
 

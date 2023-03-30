@@ -15,12 +15,6 @@ pub(crate) fn _main() {
     println!("Mode: {}", mode);
     println!("Done!");
 
-
-
-
-
-
-
     //sort the arr
     fn sort_vec_arr(mut arr: Vec<i32>) -> Vec<i32> {
         arr.sort();

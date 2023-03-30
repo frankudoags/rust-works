@@ -3,7 +3,7 @@ pub(crate) fn main() {
     // const THREE_HOURS_IN_SECONDS: u32 = 3 * 60 * 60;
     // println!("{} seconds in three hours", THREE_HOURS_IN_SECONDS);
 
-    let x = 5;// initial declaration
+    let x = 5; // initial declaration
 
     let x = x + 1; //new shadow declaration of x, x = 6
 

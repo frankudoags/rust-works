@@ -1,7 +1,6 @@
-use std::fmt::Display;
 use crate::traits::{NewsArticle, Summary, Tweet, TweetSummary};
+use std::fmt::Display;
 #[allow(dead_code)]
-
 
 pub(crate) fn _main() {
     let tweet: Tweet = Tweet {
@@ -77,18 +76,6 @@ where
     println!("Breaking news! {}", item1.summarize());
     println!("Breaking news! {}", item2.summarize());
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /// Using Trait Bounds to Conditionally Implement Methods
 /// the cmp_display method is only available to Pair<T> instances where T implements the PartialOrd trait

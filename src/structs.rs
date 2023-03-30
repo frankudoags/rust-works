@@ -34,17 +34,15 @@ pub(crate) fn _main() {
     };
     let mut _bosun = build_user(String::from("bosun-ajb@gmail.com"), String::from("Bosun"));
 
-
     fn build_user(email: String, username: String) -> User {
-    User {
-        email,
-        username,
-        active: true,
-        sign_in_count: 1,
+        User {
+            email,
+            username,
+            active: true,
+            sign_in_count: 1,
+        }
     }
 }
-}
-
 
 // fn area(rectangle: &Rectangle) -> u32 {
 //     rectangle.width * rectangle.height

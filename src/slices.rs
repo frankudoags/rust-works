@@ -3,13 +3,12 @@
 fn main() {
     let mut s1 = String::from("hello");
     let len = calc_length(&s1);
-    
+
     change(&mut s1);
     println!("The length of '{}' is {}.", s1, len);
 
     let word = first_word(&s1[..]);
     println!("The first word is: {}", word);
-
 }
 
 fn calc_length(s: &String) -> usize {

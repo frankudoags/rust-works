@@ -16,12 +16,11 @@ pub(crate) fn _main() {
 
     let _absent_number: Option<i32> = None;
 
-
     enum Coin {
         Penny,
         Nickel,
         Dime,
-        Quarter
+        Quarter,
     }
 
     fn value_in_cents(coin: Coin) -> u8 {
